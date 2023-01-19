@@ -30,6 +30,7 @@ make executable-file-name (assuming that executable-file-name.cpp exists)
 * Testar e verificar quais as funcionalidades de cada projeto (até o momento só foi verificado o 'Ordenação Tempo')
 * Melhorar readme
 * Melhorar código/estrutura do projeto
+* Melhor compilar e executar no modo iterativo (devido a todo teste não precisar re-rodar docker)
 * Transferir para inglês(?)
 
 ##
