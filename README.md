@@ -1,10 +1,3 @@
-# Mini Projetos - Sistema de Tempo Real
-
-* C++
-
-Projetos relacionados á Disciplina de Sistema de Tempo Real
-
-
 <h1 align="center">Mini Projetos - Sistema de Tempo Real</h1>
 
 <p align="center">Projetos relacionados á Disciplina de Sistema de Tempo Real</p>
