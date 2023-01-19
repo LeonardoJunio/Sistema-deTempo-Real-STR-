@@ -1,5 +1,5 @@
-# Sistema de Tempo Real
+# Mini Projetos - Sistema de Tempo Real
 
 * C++
 
-Projetos relacionados á Sistema de Tempo Real
+Projetos relacionados á Disciplina de Sistema de Tempo Real
