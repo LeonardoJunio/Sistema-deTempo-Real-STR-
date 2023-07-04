@@ -1,10 +1,10 @@
-<h1 align="center">Mini Projetos - Sistema de Tempo Real</h1>
+<h1 align="center">Mini Projects - Real Time System</h1>
 
-<p align="center">Projetos relacionados á Disciplina de Sistema de Tempo Real</p>
+<p align="center">Projects related to the Real Time System discipline</p>
 
 <hr> 
 
-### :hammer_and_wrench: Tecnologias e Conceitos:
+### :hammer_and_wrench: Technologies & Concepts:
 
 * C++ 12.2
 
@@ -13,33 +13,8 @@
 	<img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green&style=flat"/>
 </div>
 
-### :gear: Configurações:
-
-* Obs: Dockerfiles estruturados para rodar o codigo assim que executado o docker, com isso para parar a execução aparentemente só fechando o terminal.
-* Rodar o dockerfile (docker build -f c_cpp.Dockerfile -t my-gcc-app ./ && docker run -it --rm my-gcc-app)
-* Caso deseje rodar no modo iterativo do docker, comentar as linhas referente ao CMD e RUN. Após isso, executar:
-```bash
-g++ program-source-code.c -o executable-file-name
-make executable-file-name (assuming that executable-file-name.cpp exists)
-./executable_file_name
-```
-
-### :warning: Erros/Aprimoramentos:
-
-* Reorganizar nomes dos arquivos
-* Testar e verificar quais as funcionalidades de cada projeto (até o momento só foi verificado o 'Ordenação Tempo')
-* Melhorar readme
-* Melhorar código/estrutura do projeto
-* Melhor compilar e executar no modo iterativo (devido a todo teste não precisar re-rodar docker)
-* Transferir para inglês(?)
-
 ##
 
 <div align="center">
-	<p>Feito com :computer: + :heart: por Leonardo Junio</p>
+	<p>Made with :computer: + :heart: by Leonardo Junio</p>
 </div>
-
-
-
-
-
