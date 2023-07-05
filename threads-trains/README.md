@@ -22,8 +22,9 @@ docker build -f c_cpp.Dockerfile -t my-gcc-app ./ && docker run -it --rm -v ./:/
 
 * Run the following commands:
 ```bash
-g++ *.cpp -o main -lpthread
-./main
+cd threads-trains/
+make
+./bin/app 
 ```
 
 ### :warning: Bugs/Improvements:

@@ -40,15 +40,15 @@ void Trains::run(){
 
     // Creation of thread 1 that will execute the function train1
     res = pthread_create(&thread1, NULL, &train1, NULL);
-    logs.logError(res, "-Thread 1 creation failed");
+    logs.logError(res, "-Thread 1 creation failed.");
 
     // Creation of thread 2 that will execute the function train2
     res = pthread_create(&thread2, NULL, &train2, NULL);
-    logs.logError(res, "-Thread 2 creation failed");
+    logs.logError(res, "-Thread 2 creation failed.");
 
     // Creation of thread 3 that will execute the function train3
     res = pthread_create(&thread3, NULL, &train3, NULL);
-    logs.logError(res, "-Thread 3 creation failed");
+    logs.logError(res, "-Thread 3 creation failed.");
 
     // Wait for the threads to finish
     res = pthread_join(thread1, &thread_result);
