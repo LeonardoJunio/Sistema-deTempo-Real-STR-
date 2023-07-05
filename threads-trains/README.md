@@ -1,6 +1,6 @@
-<h1 align="center">3 Trains</h1>
+<h1 align="center">Threads - Trains</h1>
 
-<p align="center">Simple example of running threads with mutex.</p>
+<p align="center">Simple example of running threads with mutex, making a simple analogy to trains and tracks.</p>
 
 <hr> 
 
@@ -29,8 +29,7 @@ make
 
 ### :warning: Bugs/Improvements:
 
-* Melhorar código/estrutura do projeto
-* Desenvolver testes
+* Develop unit tests
 
 ##
 
