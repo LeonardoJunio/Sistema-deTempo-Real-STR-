@@ -4,8 +4,6 @@ CXXFLAGS = -Wall -Wextra -Wpedantic -std=c++11
 SRCDIR = src
 BINDIR = bin
 
-LDLIBS=-lpthread
-
 SRCS = $(wildcard $(SRCDIR)/*/*.cpp)
 OBJS = $(patsubst $(SRCDIR)/%,$(BINDIR)/%,$(SRCS:.cpp=.o))
 
@@ -14,7 +12,7 @@ OBJS = $(patsubst $(SRCDIR)/%,$(BINDIR)/%,$(SRCS:.cpp=.o))
 all: $(BINDIR)/app
 
 $(BINDIR)/app: $(OBJS)
-	$(CXX) $(LDFLAGS) $^ -o $@ $(LDLIBS)
+	$(CXX) $(LDFLAGS) $^ -o $@
 
 $(BINDIR)/%.o: $(SRCDIR)/%.cpp | $(BINDIR)
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $< -o $@

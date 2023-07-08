@@ -1,6 +1,6 @@
-<h1 align="center">Threads - Trains</h1>
+<h1 align="center">Pid - Control Process</h1>
 
-<p align="center">Simple example of running threads with mutex, making a simple analogy to trains and tracks.</p>
+<p align="center">Manages processing running on the system by pid.</p>
 
 <hr> 
 
@@ -22,14 +22,12 @@ docker build -f c_cpp.Dockerfile -t my-gcc-app ./ && docker run -it --rm -v ./:/
 
 * Run the following commands:
 ```bash
-cd threads-trains/
+cd pid_process/
 make
 ./bin/app 
 ```
 
 ### :warning: Bugs/Improvements:
-
-* Develop unit tests
 
 ##
 
