@@ -12,7 +12,7 @@ OBJS = $(patsubst $(SRCDIR)/%,$(BINDIR)/%,$(SRCS:.cpp=.o))
 all: $(BINDIR)/app
 
 $(BINDIR)/app: $(OBJS)
-	$(CXX) $(LDFLAGS) $^ -o $@
+	$(CXX) $(LDFLAGS) $^ -o $@ 
 
 $(BINDIR)/%.o: $(SRCDIR)/%.cpp | $(BINDIR)
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $< -o $@
